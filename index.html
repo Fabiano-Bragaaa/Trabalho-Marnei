@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Travel website | Front-End</title>
+  </head>
+  <body>
+    <div class="app">
+      <section class="greets">
+        <div class="greets-content">
+          <header>
+            <h1>Buenas Viagens</h1>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Passeios</a></li>
+              <li><a href="#">Destinos</a></li>
+              <li><a href="#">Avaliações</a></li>
+            </ul>
+          </header>
+
+          <h2>EXPLORE O MUNDO</h1>
+
+          <form action="">
+
+            <div class="form-wrapper">
+
+              <div class="input-wrapper">
+                <label for="">Para onde vamos?</label>
+                <input type="text"/>
+              </div>
+
+              <div class="input-wrapper">
+                <label for="">Quando?</label>
+                <input type="date"/>
+              </div>
+
+              <div class="input-wrapper">
+                <label for="">Retorno</label>
+                <input type="date"/>
+              </div>
+
+              <div class="button-wrapper">
+                <button>Buscar</button>
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </section>
+      
+      <main>
+        <div class="content">
+          <div class="text-content">
+            <h1>Próximos passeios & destinos</h1>
+
+            <div class="line"></div>
+
+            <p>
+              Lorem ipsum dolor 
+              sit amet consectetur adipisicing
+              elit. Error libero nemo sit ea 
+              praesentium, commodi ipsum nulla
+              nihil, quibusdam obcaecati 
+              voluptatibus repellat, veritatis 
+              voluptatem rerum quam sed eveniet 
+              nisi aperiam?
+            </p>
+            <button>
+              Saiba mais
+            </button>
+          </div>
+
+          <aside>
+            <div class="image-wrapper">
+              <img src="https://s3-alpha-sig.figma.com/img/4ac3/eaf9/0fb4391d50417513d2f4960328572920?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Bg7U5PHzjI-j5hiCCl5iRQp2bRmAXICstODxtwaHYS6gXP0-kiyegf9o3QTPDal2ipCuZnPteJn6TPhoS2rhaMsWDCnTJk4Wx6FD9IBBMXsdaoXftEsIw9X6k6NGD9pkPbXRDJ3fRB7-0dTrsMjVy9AAR4dw7KCKyBjPV5ku7oSsXAp5zncrVwkJnWLUiy0F6LW4ZrYdO9pLbJF4CSXlHXoEMzBOTmCtsFClG2KkMtDKVXcfEOKrVTrJlWcfJoClT3-dQibcXQQ6LaTZkIz9Q6qGYYEFRRh2xLy1fkBVehN9-oqq5Wz96RCkPeZw9x3LYBA6Cb4nAqLG3Buijo8XBw__" alt="">
+              <img src="https://s3-alpha-sig.figma.com/img/4ac3/eaf9/0fb4391d50417513d2f4960328572920?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Bg7U5PHzjI-j5hiCCl5iRQp2bRmAXICstODxtwaHYS6gXP0-kiyegf9o3QTPDal2ipCuZnPteJn6TPhoS2rhaMsWDCnTJk4Wx6FD9IBBMXsdaoXftEsIw9X6k6NGD9pkPbXRDJ3fRB7-0dTrsMjVy9AAR4dw7KCKyBjPV5ku7oSsXAp5zncrVwkJnWLUiy0F6LW4ZrYdO9pLbJF4CSXlHXoEMzBOTmCtsFClG2KkMtDKVXcfEOKrVTrJlWcfJoClT3-dQibcXQQ6LaTZkIz9Q6qGYYEFRRh2xLy1fkBVehN9-oqq5Wz96RCkPeZw9x3LYBA6Cb4nAqLG3Buijo8XBw__" alt="">
+            </div>
+
+            <div class="image-wrapper">
+              <img src="https://s3-alpha-sig.figma.com/img/4bdd/9d15/2cf502551e5cd6b87769518bf8e5ce7c?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PF~lzCCGAf~j6~KI4SlInK10Myj4cUwFBuwz98AySjAkLP0i7YiAL0sI5BBA-T6Zf4wfT3YaXQv5TdscPj3ZrDpexxmA2cIITOLet9X0Pcd5HE2tww-bnF-leMrekaDlkjVAtFr8K7YVAAscPLOS4LmwstBTO~GNFl7MmPzdmDaQfC-KnJNqth0UtdYNYK3sXuv9CrnXq2vHZ~xVoaMOvCsYcYzc~iwiOaergPeCVgAaK52OST0F8C9QN5VKDMLg7xP0jGhsq-0JBmrrVMxiqN4p-37eHPcAj4xCeTLUQiUreA5ksAqmu8DjIzduv9hIB-qREw5RLIB-H3FCbo5J0Q__" alt="">
+              <img src="https://s3-alpha-sig.figma.com/img/1831/15f5/593535aad2b95b2141a545240700d813?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R8Hu3~RVjwrkGQtMHNBZJ9UhZJaMIECtEi4iaRMe48wsXSSmOWxosap0tD5G5LnmkrN4BxYrQoHuaB63H7-Oml-Ch~XOCl7nf19nDXm6exAjVwpjXKDJuIsNlmMum41aA1LUjVV06DfY5ygayScaK~ZmlWOuslKmNcuH6wXp4fyxgk1OW2qP9dypQ5ITYk74D-BOA-3Cyw-PtxguxjKIgHTo2f~otEP4GfnckDdPbICm7SLgQu0dQo0tMH0PFRDaoa4PnRPB1OhBMPCmz0-O4kTIlDyWp~gF9tJiathH6u4ojZErrdUtZew-NgfWuKeHHeHv~d4xfFYXc7cUpbsXLQ__" alt="">
+            </div>
+
+          </aside>
+        </div>
+      </main>
+
+      <section class="destinos">
+        <div class="destiny-content">
+          <h1>Para onde você quer viajar?</h1>
+
+          <div class="cards">
+            <div class="card-media">
+            <div class="card-wrapper">
+
+              <img src="https://s3-alpha-sig.figma.com/img/b5f7/0120/9ec7b714193ba520135f292e1b4a396d?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TuTU~sFQVtKcBYutFiUPWs0bFUysx2N2XRw5ZJRFvUXsp7qFO5dj0aaqHUUkmDANIsI-8FBKq~2mohzWIKqI7wFz7P~JnSqNV2aSpX0SxT48tq5Y-43UD3xx0oTfjS3EeOr8nH3x7PfzRLuW29Jx7J92YDoI3djqOixf20Z1ra92iG8i9gb7fALQSqaifAZheBNYfVzXXfoJli4q~HKXIDm0CW13WohtUcWkm1fJcr6zLddm3VrnmbA9HnQShl5j5R5TNkDRVOYbCd5IFjaEGYbRiHWiNuCs0G8E5lY9rEiiQOEZ1KAOEzlbH4Mbrpbu5uud8YIwKVstv3zAv4A7sw__" alt="">
+  
+              <div class="card-text">
+  
+                <h3>Barcelona, <span>Espanha</span></h3>
+  
+                <p>
+                  Pariatur autem harum ratione 
+                  eveniet porro quidem  
+                  distinctio, laudantium 
+                  ducimus ipsam temporibus.
+                </p>
+  
+              </div>
+               
+  
+              <div class="card-price">
+  
+                <div class="price">
+                  <h3>R$ 3.900,00</h3>
+                  <span>R$4.800,00</span>
+                </div>
+               
+                <button>
+                  Saiba mais 
+                </button>
+              </div>
+            </div>
+
+            <div class="card-wrapper">
+
+              <img src="https://s3-alpha-sig.figma.com/img/e13c/b450/9555c03d12da2c9ebc600c921cf1b2ef?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=D986c2BIL~3X-jgpGBZhIyWnpjvJuo2aJZ89MS~pgbFFxVYup-kVZ~PCEPTHsQdsleyrI4hxudQvgreMzsP8yiO8c7GZG4DKZF9sggIln8RQp3iWD9jU6lAYWhhEnHFPMqnL6bNTzfKKBZyFHDI6M6dkybxOCuhfxjqm7Vq78c3y7fk0-OKOu5NR6ur11GjH97Dw~DjdijFnaAgHxjR6BpmVXx-PPr57tpLToTp~~OcVu2NcUr~vOV18YeKFPnQ~Td9yD5J-s5V78yofVMYCvPOQMnX7XP2m5PJWK67hdPPC1s2BofmpYmom14RTtC1wilTLnmahMr2Pxju-oTODHA__" alt="">
+  
+              <div class="card-text">
+  
+                <h3>Barcelona, <span>Espanha</span></h3>
+  
+                <p>
+                  Pariatur autem harum ratione 
+                  eveniet porro quidem  
+                  distinctio, laudantium 
+                  ducimus ipsam temporibus.
+                </p>
+  
+              </div>
+               
+  
+              <div class="card-price">
+  
+                <div class="price">
+                  <h3>R$ 3.900,00</h3>
+                  <span>R$4.800,00</span>
+                </div>
+               
+                <button>
+                  Saiba mais 
+                </button>
+              </div>
+            </div>
+
+            <div class="card-wrapper">
+
+              <img src="https://s3-alpha-sig.figma.com/img/b03f/21f8/506f8d1fc5fdd23dcf989f74579b9288?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VYsIaIOdymf9Q71bJBmiN~AgnXeYE1Aq5fdVIjjvB6BOph~zHnkkwoOsTzI83WdkbLUgkckI~rgk-DuwNfnwU9lBbqTzkmcmiV1X8xCMVKo2AZ8K1VN~7r94yzHS2HdnXK9QDNpLEb6y8rO3jtxZGSg90vZ3iwqdwePxhVCgAYhkFL8hR8inPzXYTBOHYaUU3XR9xygzjh5lRf2SytTQCHAEQ2~oxUJ-34qYj~UrME4SnsqJ0FtH5du6B8ZEm4NStlHe9C2vigWRvU1Vv1L8n1-GPunZCudYtjYZ~~z7SqRm8kS7b1GoOzOoJMwSbSnMJ55DnLuxQMrKa~l9~6XrDA__" alt="">
+  
+              <div class="card-text">
+  
+                <h3>Barcelona, <span>Espanha</span></h3>
+  
+                <p>
+                  Pariatur autem harum ratione 
+                  eveniet porro quidem  
+                  distinctio, laudantium 
+                  ducimus ipsam temporibus.
+                </p>
+  
+              </div>
+               
+  
+              <div class="card-price">
+  
+                <div class="price">
+                  <h3>R$ 3.900,00</h3>
+                  <span>R$4.800,00</span>
+                </div>
+               
+                <button>
+                  Saiba mais 
+                </button>
+              </div>
+            </div>
+           </div>
+           <div class="card-media">
+            <div class="card-wrapper">
+
+              <img src="https://s3-alpha-sig.figma.com/img/85bb/a2e8/470cfc10f52575f1c218eaf787114a53?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=a~rNrqOGKudtWzVbsDY9QLIXEO5cKAD~v4gPBNc4Y94A5r-rbUoIpgSsEKOsa4ZlXoeKBk1rGIG1zXCfdNJZr3vnB49UJ~IHLEKVTvjd0gnhhkSzeCjNiQPZv~k2PFSjEmOVNS9g0IIZpLyL1Q4u3Myg3DOhD~P~gJxuqbRvUBRFNCT1hFZs5F66QgLoCcs0wSr3rVnbQmbFfAm7oJqsd3M9Jav9MkUeDHIk6BlK6Oq8UnGddTXGnwsygpBnVWw5AjUlq5nsXfcsH8xrF9rrIUa-KxRxmRwh2tFPo5mINpxhGX0vTk~3Ovl89-9j~oQHxq6LVdPKo9DZNRZySZFYJQ__" alt="" id="testando">
+  
+              <div class="card-text">
+  
+                <h3>Barcelona, <span>Espanha</span></h3>
+  
+                <p>
+                  Pariatur autem harum ratione 
+                  eveniet porro quidem  
+                  distinctio, laudantium 
+                  ducimus ipsam temporibus.
+                </p>
+  
+              </div>
+               
+  
+              <div class="card-price">
+  
+                <div class="price">
+                  <h3>R$ 3.900,00</h3>
+                  <span>R$4.800,00</span>
+                </div>
+               
+                <button>
+                  Saiba mais 
+                </button>
+              </div>
+            </div>
+
+            <div class="card-wrapper">
+
+              <img src="https://s3-alpha-sig.figma.com/img/9613/cb8a/26d037d53c83a8e0a41a06506cb5bcba?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Vo2pcsFqA1RoCQnyssPC3LW5xQ~IE5qQKnPhosxvI49GNJ3nkHRcqUGVEFWf8p-k4Z-MlAAhYmBIREF2Yz1a4HEjUT0N1~AwmfUEnE~rHuGfx9Bo5MnxN49HHS0C-uq4HhOQa15iYmzNGr6UM-FLVxADv-7iEk9g7Z0juwWXJhPRCvMW-yaM7wE8IDYKGMDsx8FivBk4WXYcQCjIJwrdwyw1SBGVJi77rwKwgyyrWH1Kq8xZ0CX-k8Arf-e~8puZWDJJqaqvxrhFwNunLMGFxy36pDtDJPHF8aaGFKquRbEZPTZ094K7oyOvg-UN114on6bAwDUg826TkjC3rMLuLQ__" alt="">
+  
+              <div class="card-text">
+  
+                <h3>Barcelona, <span>Espanha</span></h3>
+  
+                <p>
+                  Pariatur autem harum ratione 
+                  eveniet porro quidem  
+                  distinctio, laudantium 
+                  ducimus ipsam temporibus.
+                </p>
+  
+              </div>
+               
+  
+              <div class="card-price">
+  
+                <div class="price">
+                  <h3>R$ 3.900,00</h3>
+                  <span>R$4.800,00</span>
+                </div>
+               
+                <button>
+                  Saiba mais 
+                </button>
+              </div>
+            </div>
+
+            <div class="card-wrapper">
+
+              <img src="https://s3-alpha-sig.figma.com/img/d038/01ef/89a71e44ac77334d74bd61c7ed2f89f7?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=k2KmW7hmhKVUb295sl3aBdpDjPVdOUKuVthP~BOaEZIfaYKOt~E15ucn1sAVJWoUW-KTb0YY08-KMJt66PREDtTKQw8bJlZS2-jfkRySYcAerVSq-3FaG~lTCmDhl4Utm1w2pUX-YXPnkno3BcfHxaNcXWxDKQ8wvUfsU5UHT8rDVzOz~p58r1SNps26x5Z91EGTqrtL7QREbzosVIEWIG0yXPsW4gtgXwdis2wZ6sIpS0NLI9q~zOk-gPfnXGQwt1mdY6wzQF-yb5NWBAMAou9mgi6x0Sh1PzXvaNIAisFaT4PDpiy5rWwHcwxLKr3sDgOR95vwafebztcFRkn2EA__" alt="">
+  
+              <div class="card-text">
+  
+                <h3>Barcelona, <span>Espanha</span></h3>
+  
+                <p>
+                  Pariatur autem harum ratione 
+                  eveniet porro quidem  
+                  distinctio, laudantium 
+                  ducimus ipsam temporibus.
+                </p>
+  
+              </div>
+               
+  
+              <div class="card-price">
+  
+                <div class="price">
+                  <h3>R$ 3.900,00</h3>
+                  <span>R$4.800,00</span>
+                </div>
+               
+                <button>
+                  Saiba mais 
+                </button>
+              </div>
+            </div>
+          </div>
+
+          </div>
+          
+
+        </div>
+      </section>
+
+      <section class="avaliacoes">
+        <div class="text-avaliacoes">
+          <h1>Avaliações dos Clientes</h1>
+
+          <p>
+            “Facilis nemo molestias eum eligendi assumenda consequuntur, 
+            alias cumque fugit tenetur laudantium in dolores delectus temporibus magni quae est quaerat”
+          </p>
+        </div>
+
+        <div class="slider">
+          <button>
+            <
+          </button>
+
+          <div class="user">
+          <img src="https://github.com/Fabiano-Bragaaa.png" alt="">
+
+          <p>Fabiano Braga, <span>Programador</span></p>
+          </div>
+
+          <button>
+            >
+          </button>
+        </div>
+      </section>
+
+      <footer>
+        <div class="section-1">
+
+        <h1>Buenas Viagens!</h1>
+        
+        <div class="location">
+        <p><span>Buenas Viagens & Turismo S.A.</span> <br>Avenida da Boa Vista, 1234 Porto, Portugal</p>
+        </div>
+
+        <div class="rights">
+         <p> Buenas Viagens & Turismo S.A. © Todos os <br>direitos reservados 2024</p>
+        </div>
+
+      </div>
+
+      <div class="section-2">
+        <h2>Nossos Parceiros</h2>
+
+        <ul>
+          <li><a href="#">consectetur adipisicing</a></li>
+          <li><a href="#">Pariatur autem harum</a></li>
+          <li><a href="#">distinctio laudantium ducimus</a></li>
+          <li><a href="#">temporibus vel magnam</a></li>
+          <li><a href="#">commodi sed quaerat</a></li>
+          <li><a href="#">Quas perspiciatis blanditiis</a></li>
+          <li><a href="#">aspernatur</a></li>
+        </ul>
+      </div>
+
+      <div class="section-3">
+        <h3>
+          ASSINE NOSSA NEWSLETTER
+        </h3>
+
+        <div class="contact">
+        <div class="footer-input-wrapper">
+          <div class="send">
+          <input type="text" placeholder="informe seu E-mail">
+          <button>
+            Enviar
+          </button>
+          </div>
+
+          <h2>SIGA NOSSAS REDES SOCIAIS</h2>
+          <div class="line-social-media"></div>
+          <div class="icon-section">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+          </div>
+        </div>
+
+       
+      </div>
+      </div>
+
+      </footer>
+
+      <div class="production">
+        <p>a Davi Cotting production © 2024</p>
+      </div>
+
+  </body>
+</html>
